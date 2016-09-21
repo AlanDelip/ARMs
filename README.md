@@ -1,16 +1,17 @@
+#ARMs For Android
+============
 ARMs for Android is a Android App replanting the website of a CitibankCup work.  Welcome to <b>STAR/FOLLOW/FORK!</b>
 
 >*In this program, we focus on the structure and module design of the application instead of the algo and content of it.*
 
 ###Preview
----
-![](http://upload-images.jianshu.io/upload_images/3072566-a8bf50333c8601b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/3072566-fdadef89b62283c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/3072566-524ba2b110669df4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/3072566-db4443b1c85e9183.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+============
+![](http://upload-images.jianshu.io/upload_images/3072566-55632f8af276c8d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3072566-bf72302e4fd15d4d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3072566-ab0922e9ca3ec474.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3072566-43fbf23a81f83731.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ###Structures & Design
----
+============
  - <b>**[MVP (Model+View+Presenter) Structure](https://github.com/googlesamples/android-architecture)**</b>
 *A better structure uncoupling between layers, Introduced by Google.*
 
@@ -43,7 +44,7 @@ class ExampleActivity extends Activity {
 ```
 
  - <b>[square](https://github.com/square)/**[Retrofit](https://github.com/square/retrofit)**</b>
-*A type-safe?HTTP client?for Android and Java.*
+*A type-safe HTTP client for Android and Java.*
 ```
 public interface NewsService {
         @GET("news")
@@ -51,7 +52,7 @@ public interface NewsService {
 }
 ```
  - <b>[ReactiveX](https://github.com/ReactiveX)/**[RxJava](https://github.com/ReactiveX/RxJava)**</b>
-*a Java VM implementation of?[Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences.*
+*a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences.*
 ```
 public void getPrediction(Subscriber<PredictResponse> subscriber, String lowerGamma, List<String> optionList) {
         PredictService predictService = retrofit.create(PredictService.class);
@@ -64,23 +65,23 @@ public void getPrediction(Subscriber<PredictResponse> subscriber, String lowerGa
     }
 ```
 ###Plugins
----
+============
 - [PhilJay](https://github.com/PhilJay)/**[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)** 
 - [aurelhubert](https://github.com/aurelhubert)/**[ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)**
 - [ikew0ng](https://github.com/ikew0ng)/**[SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)**
 - [DreaminginCodeZH](https://github.com/DreaminginCodeZH)/**[MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar)**
 
 ###Supporters
----
+============
  - Business college, NJU, China
  - Software engineering college, NJU, China
 
-###Designer
----
- - AlanDelip
+###Developer
+============
+ - AlanDelip [@Email Me](mailto:141250164@smail.nju.edu.cn)
 
 ###License
----
+============
 Copyright 2016 Alan Delip
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
