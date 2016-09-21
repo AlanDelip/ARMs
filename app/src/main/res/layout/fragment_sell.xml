@@ -1,0 +1,148 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.sell.SellFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/news_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/futures_type_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="期货类型" />
+
+                <Spinner
+                    android:id="@+id/futures_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/futures_type_text"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:id="@+id/futures_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/futures_type"
+                    android:layout_below="@+id/futures_type"
+                    android:layout_marginTop="8dp"
+                    android:text="期权名称" />
+
+                <Spinner
+                    android:id="@+id/futures_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/futures_name_text"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:id="@+id/options_type_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/futures_name"
+                    android:layout_marginTop="8dp"
+                    android:text="期权类型" />
+
+                <Spinner
+                    android:id="@+id/options_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/options_type_text"
+                    android:layout_marginTop="5dp"
+                    android:entries="@array/option_type" />
+
+                <TextView
+                    android:id="@+id/block_level_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/options_type"
+                    android:layout_marginTop="8dp"
+                    android:text="障碍水平" />
+
+                <EditText
+                    android:id="@+id/block_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/block_level_text"
+                    android:layout_marginTop="5dp"
+                    android:inputType="numberDecimal"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/sell_price_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/block_level"
+                    android:layout_marginTop="8dp"
+                    android:text="行权价格" />
+
+                <EditText
+                    android:id="@+id/sell_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sell_price_text"
+                    android:layout_marginTop="5dp"
+                    android:inputType="numberDecimal"
+                    android:text="10000" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/check_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/news_card"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="查看价格￥"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_price"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="确认购买 ￥100元"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+</android.support.design.widget.CoordinatorLayout>

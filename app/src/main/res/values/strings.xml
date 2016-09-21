@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ARMS</string>
+
+    <string name="index">Index</string>
+    <string name="index_title">期权状态</string>
+    <string name="sell">Sell</string>
+    <string name="sell_title">卖期权</string>
+    <string name="about">About us</string>
+    <string name="about_title">关于我们</string>
+    <string name="info">相关新闻</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="title_activity_futures">FuturesActivity</string>
+    <string name="title_activity_comb">CombActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+
+    <string name="comb_transition">comb_transition</string>
+    <string name="title_activity_chart">ChartActivity</string>
+</resources>
