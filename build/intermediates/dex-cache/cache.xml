@@ -1,3 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\adapter-rxjava-2.1.0_9b0b3ba2e085dd89dfa7cd3e4c210cfab7b75067.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.4.0_62cce81241c356f7d8542b90a29176b3c97169d7.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.jakewharton-butterknife-8.4.0_9efad2012a2a77ba3d22269433b13d5da6768bc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.0-beta1\54d65d51b5ebec588a19b2384efb6395b5bf5b18\MPAndroidChart-v3.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\MPAndroidChart-v3.0.0-beta1_21be5655fec42e801bb98d6a031f7cda544ce45d.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.0.0_e62c891f7fc5daee6cb41c4a97c80b6b04475e19.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\io.reactivex-rxandroid-1.2.0_53dc8cc93436bae7e73d4987b7a6b57474ebd111.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\me.zhanghai.android.materialprogressbar-library-1.1.7_a30f22df0050a21750f0e2c845ad02854cf64f32.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\retrofit-2.1.0_4c1126a2adb8096e95e7e6121502eb0401d66441.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\1.3.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4234bd96344a30c7130d4bd89f3ab9116c30931b">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.aurelhubert-ahbottomnavigation-1.3.3_69bac40048c72012145955ec6adff1a0da53a97c.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.0.0_afd2c7113a8e7fbad890bcbafeb63d52aad5e523.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.0.0_182389f5c29aca5b5364cb947b06fcfd1ccdcede.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-24.0.0_8171dc8e7bfb83999eec9df13787492ff7d6f57c.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.0.0_6fcc0cde078ba6d0427a06625e574e4918b848b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\butterknife-annotations-8.4.0_094f3bfa717adcda93cb7c375c9f55eb29d43c16.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\com.android.support-design-24.0.0_4d8798810fb98cf716458460add2c32f0326cfcd.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\okio-1.8.0_fca3debbad0aa51a98371a88a2d70e11902dfc9b.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.0\8a23146e1a8c7cb4758e3d3f62449213f1e51f67\support-annotations-24.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\support-annotations-24.1.0_0b93f45152b7fc038f36808ee1de4415d430a6ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\gson-2.7_8a462a217104acdd8399b22434c3166b2875cd8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\okhttp-3.3.0_9c115978ad98def7d41b10fd816d77deed76078b.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\internal_impl-24.0.0_381ee65944cd898c238e7ff0ca9bb60e00153b29.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\converter-gson-2.1.0_ed08d7452bb5f6d5e228d8ce444aa717ad1b97e8.jar" />
+    </item>
+    <item
+        jar="F:\ARMs\app\build\intermediates\exploded-aar\me.imid.swipebacklayout.lib\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d0958dbac8e7be76690b8e85d91698dfadbd81e">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\me.imid.swipebacklayout.lib-library-1.0.0_aedf8b77a4767ba676d755e2c09df803d4e7e602.jar" />
+    </item>
+    <item
+        jar="C:\Users\朱峰\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.0\42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8\rxjava-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
+        <dex dex="F:\ARMs\app\build\intermediates\pre-dexed\release\rxjava-1.2.0_7c4dd82dcef831fbc520da7bb61768deab61760f.jar" />
+    </item>
+
+</items>
