@@ -27,8 +27,6 @@ import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -245,13 +243,7 @@ public class AdjustActivity extends AppCompatActivity implements AdjustContract.
     public void adjustSuccess() {
         Toast.makeText(AdjustActivity.this, "调仓成功!", Toast.LENGTH_SHORT).show();
         reset();
-        Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                onBackPressed();
-            }
-        }, 1000);
+        onBackPressed();
     }
 
     @Override

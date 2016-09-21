@@ -87,6 +87,8 @@ public class CombActivity extends SwipeBackActivity implements CombContract.View
 
     private void initListView() {
         View view = LayoutInflater.from(this).inflate(R.layout.comb_header, null);
+        view.setClickable(false);
+        view.setFocusable(false);
         mCombListView.addHeaderView(view);
         mCostView = (TextView) view.findViewById(R.id.cost);
         mDeltaView = (TextView) view.findViewById(R.id.delta);
@@ -96,26 +98,27 @@ public class CombActivity extends SwipeBackActivity implements CombContract.View
         mCombListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                mCombListView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
-
-                mCombListView.setItemChecked(position, true);
                 CombContentVO combContentVO = (CombContentVO) parent.getItemAtPosition(position);
-                selectedOptionList.add(combContentVO.getOption_id());
+                if (combContentVO != null) {
+                    mCombListView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
+                    mCombListView.setItemChecked(position, true);
+                    selectedOptionList.add(combContentVO.getOption_id());
 
-                combAdapter.notifyDataSetChanged();
-                mCombListView.invalidate();
-                mAdjustView.setVisibility(View.VISIBLE);
-                mAdjustView.startAnimation(combAnim(1));
+                    combAdapter.notifyDataSetChanged();
+                    mCombListView.invalidate();
+                    mAdjustView.setVisibility(View.VISIBLE);
+                    mAdjustView.startAnimation(combAnim(1));
 
 
-                mAdjustView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        String[] optionList = new String[selectedOptionList.size()];
-                        selectedOptionList.toArray(optionList);
-                        AdjustActivity.activityStart(CombActivity.this, optionList, futureID);
-                    }
-                });
+                    mAdjustView.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            String[] optionList = new String[selectedOptionList.size()];
+                            selectedOptionList.toArray(optionList);
+                            AdjustActivity.activityStart(CombActivity.this, optionList, futureID);
+                        }
+                    });
+                }
                 return true;
             }
         });

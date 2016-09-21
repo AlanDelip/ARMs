@@ -1,5 +1,6 @@
 package sensation.njucitibank.view.index;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -114,15 +115,17 @@ public class IndexFragment extends Fragment implements IndexContract.View {
     }
 
     private void initScrollView() {
-        scrollView.setOnScrollChangeListener(new View.OnScrollChangeListener() {
-            @Override
-            public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-                if (mDetailLayout.getVisibility() == View.VISIBLE) {
-                    mDetailLayout.startAnimation(indexAnim(2));
-                    mDetailLayout.setVisibility(View.GONE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
+            scrollView.setOnScrollChangeListener(new View.OnScrollChangeListener() {
+                @Override
+                public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
+                    if (mDetailLayout.getVisibility() == View.VISIBLE) {
+                        mDetailLayout.startAnimation(indexAnim(2));
+                        mDetailLayout.setVisibility(View.GONE);
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
 
