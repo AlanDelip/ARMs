@@ -5,10 +5,10 @@ ARMs for Android is a Android App replanting the website of a CitibankCup work. 
 
 ###Preview
 ==========
-![](http://upload-images.jianshu.io/upload_images/3072566-55632f8af276c8d2.png?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/3072566-bf72302e4fd15d4d.png?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/3072566-ab0922e9ca3ec474.png?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/3072566-43fbf23a81f83731.png?imageMogr2/auto-orient/strip)
+![](http://github.com/AlanDelip/ARMs/img/promotion_1_small.png)
+![](http://github.com/AlanDelip/ARMs/img/promotion_2_small.png)
+![](http://github.com/AlanDelip/ARMs/img/promotion1.png)
+![](http://github.com/AlanDelip/ARMs/img/promotion2.png)
 ###Structures & Design
 ==========
  - <b>**[MVP (Model+View+Presenter) Structure](https://github.com/googlesamples/android-architecture)**</b>
