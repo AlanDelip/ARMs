@@ -73,7 +73,7 @@ public void getPrediction(Subscriber<PredictResponse> subscriber, String lowerGa
 ###Supporters
 ==========
  - Business college, NJU, China
- - Software engineering college, NJU, China
+ - Software engineering institute, NJU, China
 
 ###Developer
 ==========
