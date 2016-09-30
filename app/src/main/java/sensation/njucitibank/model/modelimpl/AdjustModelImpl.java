@@ -14,7 +14,7 @@ import sensation.njucitibank.model.service.ChartService;
 import sensation.njucitibank.model.service.PredictService;
 
 /**
- * Creaited by Alan on 2016/9/20.
+ * Created by Alan on 2016/9/20.
  */
 public class AdjustModelImpl extends ModelImpl implements AdjustModel {
 

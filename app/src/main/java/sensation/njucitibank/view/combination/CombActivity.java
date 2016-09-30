@@ -126,7 +126,7 @@ public class CombActivity extends SwipeBackActivity implements CombContract.View
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 CombContentVO combContentVO = (CombContentVO) parent.getItemAtPosition(position);
-                if (combContentVO != null) {
+                if (combContentVO != null && mCombListView.getChoiceMode() == AbsListView.CHOICE_MODE_MULTIPLE) {
                     CheckBox checkBox = (CheckBox) view.findViewById(R.id.checkbox);
                     if (checkBox.isChecked()) {
                         mCombListView.setItemChecked(position, false);

@@ -29,7 +29,6 @@ public class MApplication extends Application {
 
         initContext();
         initHostIP();
-
     }
 
     private void initContext() {
