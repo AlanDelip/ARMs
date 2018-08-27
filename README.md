@@ -4,13 +4,11 @@ ARMs for Android is a Android App replanting the website of a CitibankCup work. 
 >*In this program, we focus on the structure and module design of the application instead of the algo and content of it.*
 
 ### Preview
-==========
 ![](https://github.com/AlanDelip/ARMs/blob/master/img/promotion_1_small.png)
 ![](https://github.com/AlanDelip/ARMs/blob/master/img/promotion_2_small.png)
 ![](https://github.com/AlanDelip/ARMs/blob/master/img/promotion1.png)
 ![](https://github.com/AlanDelip/ARMs/blob/master/img/promotion2.png)
 ### Structures & Design
-==========
  - <b>**[MVP (Model+View+Presenter) Structure](https://github.com/googlesamples/android-architecture)**</b>
 *A better structure uncoupling between layers, Introduced by Google.*
 
@@ -64,23 +62,19 @@ public void getPrediction(Subscriber<PredictResponse> subscriber, String lowerGa
     }
 ```
 ### Plugins
-==========
 - [PhilJay](https://github.com/PhilJay)/**[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)** 
 - [aurelhubert](https://github.com/aurelhubert)/**[ahbottomnavigation](https://github.com/aurelhubert/ahbottomnavigation)**
 - [ikew0ng](https://github.com/ikew0ng)/**[SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)**
 - [DreaminginCodeZH](https://github.com/DreaminginCodeZH)/**[MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar)**
 
 ### Supporters
-==========
  - Business college, NJU, China
  - Software engineering institute, NJU, China
 
 ### Developer
-==========
  - AlanDelip [@Email Me](mailto:141250164@smail.nju.edu.cn)
 
 ### License
-==========
 Copyright 2016 Alan Delip
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
